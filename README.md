@@ -1,40 +1,12 @@
-# MetaHealthXR - AI-Powered Health Companion in the Metaverse
+# React + Vite
 
-![MetaHealthXR Screenshot](/public/images/screenshot.png)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🌟 Overview
+Currently, two official plugins are available:
 
-MetaHealthXR revolutionizes healthcare by combining AI-powered diagnostics with immersive metaverse experiences. This platform offers:
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- 🩺 Virtual consultations with an AI doctor avatar
-- 📊 Real-time health dashboard with 3D visualization
-- 🧠 Mental wellness support through metaverse environments
-- 🤖 Groq LLM-powered health assistant with multimodal input
+## Expanding the ESLint configuration
 
-## 🚀 Features
-
-### Core Functionalities
-- **AI Doctor Avatar**: 24/7 access to health advice powered by Groq's lightning-fast LLM
-- **Metaverse Clinics**: Immersive 3D environments for virtual consultations
-- **Health Dashboard**: Track vitals, mood, and activity with beautiful visualizations
-- **Multimodal Input**: Submit health data via voice, text, images, or webcam
-
-### Technical Highlights
-- **Frontend**: React + Vite (Modern, fast build system)
-- **Backend**: Node.js/Express with MongoDB
-- **Authentication**: JWT-based secure login
-- **Real-time Data**: WebSocket support for live health updates
-
-## 🛠 Installation
-
-### Prerequisites
-- Node.js v16+
-- MongoDB v5+
-- Git (optional)
-
-### Setup Instructions
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/metahealth-xr.git
-   cd metahealth-xr
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
